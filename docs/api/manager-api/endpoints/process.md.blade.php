@@ -102,7 +102,7 @@ process.stop
     "id": "unique-request-id",
 	"jsonrpc": "2.0",
 	"method": "process.stop",
-	"params": { "name": "ark-core" }
+	"params": { "name": "infi-core" }
 }
 ```
 
@@ -113,7 +113,7 @@ process.stop
     "id": "unique-request-id",
     "jsonrpc": "2.0",
     "result": {
-        "name": "ark-core",
+        "name": "infi-core",
         "status": "stopped"
     }
 }
@@ -202,7 +202,7 @@ process.restart
     "id": "unique-request-id",
 	"jsonrpc": "2.0",
 	"method": "process.restart",
-	"params": { "name": "ark-core" }
+	"params": { "name": "infi-core" }
 }
 ```
 
@@ -213,7 +213,7 @@ process.restart
     "id": "unique-request-id",
     "jsonrpc": "2.0",
     "result": {
-        "name": "ark-core",
+        "name": "infi-core",
         "status": "online"
     }
 }

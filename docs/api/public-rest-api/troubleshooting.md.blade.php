@@ -12,7 +12,7 @@ If you're encountering some oddities in the API, here's a list of resolutions to
 
 Typically, this means that the node you are sending your requests to is out of sync and missing data that exists on other nodes that are in sync.
 
-To troubleshoot, ensure you're querying a node that is in sync, and third-party application restrictions are not blocking access. Querying the [explorer](https://explorer.ark.io:8443/api) is usually a good start.
+To troubleshoot, ensure you're querying a node that is in sync, and third-party application restrictions are not blocking access. Querying the [explorer INFI](https://api.infinitysolutions.io/api) or [explorer EDGE](https://api.hedge.infinitysolutions.io/api)is usually a good start.
 
 ## Why Am I Not Seeing All My Results?
 

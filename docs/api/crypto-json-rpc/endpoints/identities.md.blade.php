@@ -44,7 +44,7 @@ identities.address.fromPassphrase
   "id": "unique-request-id",
   "jsonrpc": "2.0",
   "result": {
-    "address": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC"
+    "address": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps"
   }
 }
 ```
@@ -89,7 +89,7 @@ identities.address.fromPublicKey
   "id": "unique-request-id",
   "jsonrpc": "2.0",
   "result": {
-    "address": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC"
+    "address": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps"
   }
 }
 ```
@@ -143,7 +143,7 @@ identities.address.fromPrivateKey
   "id": "unique-request-id",
   "jsonrpc": "2.0",
   "result": {
-    "address": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC"
+    "address": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps"
   }
 }
 ```
@@ -204,7 +204,7 @@ identities.address.fromMultiSignatureAsset
   "id": "unique-request-id",
   "jsonrpc": "2.0",
   "result": {
-    "address": "AH3Ca9QE9u9jKKTdUaLjAQqcqK4ZmSkVqp"
+    "address": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps"
   }
 }
 ```

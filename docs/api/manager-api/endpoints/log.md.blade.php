@@ -78,7 +78,7 @@ log.search
                 "id": 1,
                 "process": "core",
                 "level": "info",
-                "content": "Connecting to database: ark_testnet",
+                "content": "Connecting to database: infi_testnet",
                 "timestamp": 1605705110,
             },
             {

@@ -7,6 +7,7 @@ title: Getting Started
 ## Disclaimer
 
 The purpose of this application is to serve as a server for SDKs to ensure compliance with `@arkecosystem/crypto`, this means there can be many breaking changes without any notice.
+Infinity Using the ARK SDKs and ARK Cryptography solution.
 
 <x-alert type="danger">
 **We strongly advise against using this for anything but SDK compliance testing and no support is offered if you do so.**
@@ -22,7 +23,7 @@ yarn global add @arkecosystem/crypto-json-rpc
 
 ```bash
 $ crypto-json-rpc
-A JSON-RPC 2.0 specification compliant server to interact with ARK Cryptography.
+A JSON-RPC 2.0 specification compliant server to interact with INFI Cryptography.
 
 VERSION
   @arkecosystem/crypto-json-rpc/0.2.0 darwin-x64 node-v10.15.3
@@ -46,4 +47,4 @@ COMMANDS
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to [security@ark.io](mailto:security@ark.io). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to [security@infinitysolutions.io](mailto:security@infinitysolutions.io). All security vulnerabilities will be promptly addressed.

@@ -147,7 +147,7 @@ info.coreStatus
     "id": "unique-request-id",
 	"jsonrpc": "2.0",
 	"method": "info.coreStatus",
-	"params": { "token": "ark" }
+	"params": { "token": "infi" }
 }
 ```
 
@@ -518,7 +518,7 @@ info.currentDelegate
     "jsonrpc": "2.0",
     "result": {
         "rank": 9,
-        "username": "genesis_30"
+        "username": "genesis_20"
     }
 }
 ```

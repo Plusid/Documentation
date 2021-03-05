@@ -36,9 +36,9 @@ transactions.sign
       "timestamp": 69019121,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "expiration": 0
     },
@@ -92,9 +92,9 @@ transactions.secondSign
       "timestamp": 69019143,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "expiration": 0
     },
@@ -148,9 +148,9 @@ transactions.multiSign
       "timestamp": 69019174,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tKvaqzaUBJq6XSWkKjdvVEmzNGg3ooPeps",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "expiration": 0
     },
@@ -205,10 +205,10 @@ transactions.serialize
       "timestamp": 69019210,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tqzaUBJq6XSWKvakKjdvVEmzNGg3ooPeps",
       "expiration": 0
     },
     "network": "testnet"
@@ -274,10 +274,10 @@ transactions.deserialize
       "type": 0,
       "timestamp": 69019483,
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
-      "fee": "10000000",
+      "fee": "10000",
       "amount": "1",
       "expiration": 0,
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tqzaUBJq6XSWKvakKjdvVEmzNGg3ooPeps",
       "signature": "30450221008a5e3c5c276fc5e10b72c47e971f735efd19fb90b597fb45cb3558f04de455ab02206f8554596ca1326edbabd18fc620881e548f72d3d3eadaadcb4cc6739e8c6329"
     }
   }
@@ -317,10 +317,10 @@ transactions.verify
       "timestamp": 69019518,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tqzaUBJq6XSWKvakKjdvVEmzNGg3ooPeps",
       "expiration": 0
     },
     "network": "testnet"
@@ -367,10 +367,10 @@ transactions.verifyHash
       "timestamp": 69019546,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tqzaUBJq6XSWKvakKjdvVEmzNGg3ooPeps",
       "expiration": 0
     },
     "network": "testnet"
@@ -419,10 +419,10 @@ transactions.verifySecondSignature
       "timestamp": 69019580,
       "version": 1,
       "type": 0,
-      "fee": "10000000",
+      "fee": "10000",
       "senderPublicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
       "amount": "1",
-      "recipientId": "AGeYmgbg2LgGxRW2vNNJvQ88PknEJsYizC",
+      "recipientId": "tqzaUBJq6XSWKvakKjdvVEmzNGg3ooPeps",
       "expiration": 0
     },
     "publicKey": "034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192",
