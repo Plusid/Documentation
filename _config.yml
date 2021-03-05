@@ -8,7 +8,7 @@ lang: en-US
 baseurl: "/Documentation" # the subpath of your site, e.g. /blog/
 url: https://doc.infinitysolutions.io/ # the base hostname & protocol for your site
 git_address: https://github.com/plusid/Documentation
-git_edit_address: https://github.com/plusid/Documentation/blob/gh-pages
+git_edit_address: https://github.com/plusid/Documentation/tree/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
