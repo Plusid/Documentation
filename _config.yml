@@ -1,7 +1,8 @@
 io# Site settings
 title: Infinity Documentation 
 email: info@infinitysoftware.io
-description: >Cryptocurrency Infinity
+description: >
+  Cryptocurrency Infinity
 lang: en-US
 
 baseurl: "/Documentation" # the subpath of your site, e.g. /blog/
