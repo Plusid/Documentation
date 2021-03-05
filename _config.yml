@@ -1,11 +1,11 @@
-# Site settings
+t# Site settings
 title: Infinity Documentation 
 email: info@infinitysoftware.io
 description: >
   Cryptocurrency Infinity
 lang: en-US
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
+baseurl: "/Documentation" # the subpath of your site, e.g. /blog/
 url: https://doc.infinitysolutions.io/ # the base hostname & protocol for your site
 git_address: https://github.com/plusid/Documentation
 git_edit_address: https://github.com/plusid/Documentation/blob/gh-pages
