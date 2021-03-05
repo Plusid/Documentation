@@ -1,15 +1,13 @@
-# Site settings
-title: Jekyll Doc Theme
-email: your-email@domain.com
-description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+io# Site settings
+title: Infinity Documentation 
+email: info@infinitysoftware.io
+description: >Cryptocurrency Infinity
 lang: en-US
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: "/Documentation" # the subpath of your site, e.g. /blog/
+url: https://plusid.github.io/Documentation # the base hostname & protocol for your site
+git_address: https://github.com/plusid/Documentation
+git_edit_address: https://github.com/plusid/Documentation/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
