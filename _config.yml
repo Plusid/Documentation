@@ -26,8 +26,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
-
 exclude:
   - Gemfile
   - Gemfile.lock
