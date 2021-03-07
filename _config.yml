@@ -24,7 +24,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   
-remote_theme: Plusid/Documentation@gh-pages
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
 
 exclude:
   - Gemfile
