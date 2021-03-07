@@ -4,8 +4,9 @@ ruby RUBY_VERSION
 # gem "jekyll", "4.0"
 
 # to use GitHub Pages
+run `bundle update github-pages`
 gem "github-pages", group: :jekyll_plugins
-#bundle update github-pages
+
 # If you have any plugins, put them here!
 # group :jekyll_plugins do
 #    gem "jekyll-feed"
