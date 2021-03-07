@@ -18,6 +18,7 @@ bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen read
 markdown: kramdown
 highlighter: rouge
 # Plugins (previously gems:)
+remote_theme: Plusid/Documentation@gh-pages
 plugins:
   - gh-pages
   - jekyll-feed
