@@ -1,18 +1,18 @@
 - title: Getting Started
-  docs:
+  api:
   - home
   - themes
   - customization
 
 - title: API
-  docs:
+  api:
   - welcome
   - index
   - font-awesome
   - bootstrap
   
 - title: Examples
-  docs:
+  api:
   - cheatsheet
   - font-awesome
   - bootstrap
