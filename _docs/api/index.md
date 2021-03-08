@@ -1,7 +1,7 @@
 ---
 title: API Index
 permalink: /docs/welcome
-redirect_from: /docs/api/index.html
+redirect_from: /docs/api/index.md.blade.php
 ---
 
 ## Getting started
