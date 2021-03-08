@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Node Infinity
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
