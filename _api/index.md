@@ -1,41 +1,69 @@
 ---
 title: API Index
 permalink: /docs/welcome
-redirect_from: /docs/api/index.md.blade.php
+redirect_from: /docs/api/index.md
 ---
 
 ## Getting started
 
+## Introduction
 
+<x-general.sidebar-link path="/docs/api/intro" name="Introduction" />
 
-## Writing content
+## Public REST API
 
-### Docs
+<x-general.sidebar-link path="/docs/api/public-rest-api/getting-started" name="Getting Started" />
+<x-general.sidebar-link
+    path="/docs/api/public-rest-api/endpoints"
+    name="Endpoints"
+    :children="[
+        ['path' => '/docs/api/public-rest-api/endpoints/blockchain', 'name' => 'Blockchain'],
+        ['path' => '/docs/api/public-rest-api/endpoints/blocks', 'name' => 'Blocks'],
+        ['path' => '/docs/api/public-rest-api/endpoints/delegates', 'name' => 'Delegates'],
+        ['path' => '/docs/api/public-rest-api/endpoints/entities', 'name' => 'Entities'],
+        ['path' => '/docs/api/public-rest-api/endpoints/node', 'name' => 'Node'],
+        ['path' => '/docs/api/public-rest-api/endpoints/peers', 'name' => 'Peers'],
+        ['path' => '/docs/api/public-rest-api/endpoints/transactions', 'name' => 'Transactions'],
+        ['path' => '/docs/api/public-rest-api/endpoints/votes', 'name' => 'Votes'],
+        ['path' => '/docs/api/public-rest-api/endpoints/wallets', 'name' => 'Wallets'],
+    ]"
+/>
+<x-general.sidebar-link path="/docs/api/public-rest-api/troubleshooting" name="Troubleshooting" />
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+## Webhook API
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+<x-general.sidebar-link path="/docs/api/webhook-api/getting-started" name="Getting Started" />
+<x-general.sidebar-link path="/docs/api/webhook-api/usage" name="Usage" />
+<x-general.sidebar-link path="/docs/api/webhook-api/endpoints" name="Endpoints" />
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+## Manager API
+<x-general.sidebar-link path="/docs/api/manager-api/getting-started" name="Getting Started" />
+<x-general.sidebar-link
+    path="/docs/api/manager-api/endpoints"
+    name="Endpoints"
+    :children="[
+        ['path' => '/docs/api/manager-api/endpoints/configuration', 'name' => 'Configuration'],
+        ['path' => '/docs/api/manager-api/endpoints/info', 'name' => 'Info'],
+        ['path' => '/docs/api/manager-api/endpoints/log', 'name' => 'Log'],
+        ['path' => '/docs/api/manager-api/endpoints/process', 'name' => 'Process'],
+        ['path' => '/docs/api/manager-api/endpoints/snapshots', 'name' => 'Snapshots'],
+        ['path' => '/docs/api/manager-api/endpoints/watcher', 'name' => 'Watcher'],
+    ]"
+/>
 
-Hello World!
-```
+## Elasticsearch API
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+<x-general.sidebar-link path="/docs/api/elasticsearch-api/getting-started" name="Getting Started" />
+<x-general.sidebar-link path="/docs/api/elasticsearch-api/endpoints" name="Endpoints" />
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+## Crypto JSON-RPC
 
-
-### Pages
-
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+<x-general.sidebar-link path="/docs/api/crypto-json-rpc/getting-started" name="Getting Started" />
+<x-general.sidebar-link
+    path="/docs/api/crypto-json-rpc/endpoints/intro"
+    name="Endpoints"
+    :children="[
+        ['path' => '/docs/api/crypto-json-rpc/endpoints/identities', 'name' => 'Identities'],
+        ['path' => '/docs/api/crypto-json-rpc/endpoints/transactions', 'name' => 'Transactions'],
+    ]"
+/>
