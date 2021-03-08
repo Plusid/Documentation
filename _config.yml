@@ -49,6 +49,15 @@ defaults:
     sectionid: docs
     seo:
       type: "WebPage"
+      
+- scope:
+    path: _api
+    type: docs
+  values:
+    layout: docs
+    sectionid: api
+    seo:
+      type: "WebPage"
 
 collections:
   docs:
