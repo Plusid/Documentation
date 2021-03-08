@@ -4,6 +4,12 @@
   - themes
   - customization
 
+- title: API
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap
+  
 - title: Examples
   docs:
   - cheatsheet
