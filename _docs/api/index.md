@@ -1,6 +1,6 @@
 ---
-title: Node Infinity
-permalink: /docs/home/
+title: API Index
+permalink: /docs/welcome
 redirect_from: /docs/api/index.html
 ---
 
